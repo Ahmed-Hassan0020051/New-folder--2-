@@ -1,4 +1,13 @@
+.card {
+    
+     border:none; 
+ 
+}
+.hero-wrapper2 img{
+    width: 100%;
+}
 .footer{
+    width: 100%;
     background-color:  #f2f2f2;
 }
 
