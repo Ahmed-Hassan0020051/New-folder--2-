@@ -1,3 +1,7 @@
+.main-navbar .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+     background-color: white!important; 
+}
 .card {
     
      border:none; 
