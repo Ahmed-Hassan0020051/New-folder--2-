@@ -1,14 +1,59 @@
+
 .main-navbar .bg-body-tertiary {
     --bs-bg-opacity: 1;
      background-color: white!important; 
 }
-.card {
-    
+.main-navbar .container-fluid .navbar-brand img{
+    width: 100px;
+
+}
+.card{
      border:none; 
- 
+}
+.card .card-body{
+    padding-top: 9px ;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 25px;
+}
+
+
+.card-body a{
+    color: #0067ba;
+    text-decoration: none;
+}
+.card-body a:hover{
+    border-bottom: 2px solid #0067ba  ;
+    
 }
 .hero-wrapper2 img{
     width: 100%;
+}
+.social-connections{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+.main-links{
+    display: flex;
+}
+.main-links ul{
+    display: flex; 
+   list-style-type: none;
+}
+.main-links ul h5{
+    display: flex;
+}
+.main-links ul li {
+    display: flex;
+   margin: 12px;
+}
+.main-links ul li a{
+   text-decoration: none;
+   color: black;
+}
+.main-links ul li a span img{
+    width: 35px;
 }
 .footer{
     width: 100%;
@@ -27,6 +72,7 @@
 }
 .bottom-links ul li{
    margin: 12px;
+   font-size: 3px;
 }
 .bottom-links ul li a{
    text-decoration: none;
@@ -36,11 +82,7 @@
 .bottom-links ul li a:hover{
    border-bottom: 1px solid black;
 }
-.container{
-    width: 95%;
-    margin: 0 auto;
 
-}
 .bottom-links ul h5{
     display: flex;
     align-items: center;
